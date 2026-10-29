@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Equibles is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://equibles.com
+Equibles provides a platform for researching US stocks, offering access to SEC filings, earnings call transcripts, 13F holdings, insider and congressional trades, and AI-driven analysis via ALVIS. Users can query financial data through a REST API and integrate with AI assistants like ChatGPT, Claude, or Cursor. The service includes free starter access and comprehensive documentation for developers.
+
+**Areas:** Company · Finance · Data · Stocks
+
+## Equibles on APIs.io
+
+Everything profiled for Equibles is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/equibles/](https://apis.io/providers/equibles/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Equibles Equibles API](https://apis.io/apis/equibles/equibles-equibles-api-api/) — The Equibles API API from Equibles — 1 operation(s) for equibles api.
+- [Equibles Etfs API](https://apis.io/apis/equibles/equibles-etfs-api/) — The Etfs API from Equibles — 2 operation(s) for etfs.
+- [Equibles Fda API](https://apis.io/apis/equibles/equibles-fda-api/) — The Fda API from Equibles — 1 operation(s) for fda.
+- [Equibles Funds API](https://apis.io/apis/equibles/equibles-funds-api/) — The Funds API from Equibles — 1 operation(s) for funds.
+- [Equibles Investment Advisers API](https://apis.io/apis/equibles/equibles-investment-advisers-api/) — The Investment Advisers API from Equibles — 1 operation(s) for investment advisers.
+- [Equibles Ipos API](https://apis.io/apis/equibles/equibles-ipos-api/) — The Ipos API from Equibles — 1 operation(s) for ipos.
+- [Equibles Short Interest API](https://apis.io/apis/equibles/equibles-short-interest-api/) — The Short Interest API from Equibles — 1 operation(s) for short interest.
+- [Equibles Short Volume API](https://apis.io/apis/equibles/equibles-short-volume-api/) — The Short Volume API from Equibles — 1 operation(s) for short volume.
+- [Equibles Stocks API](https://apis.io/apis/equibles/equibles-stocks-api/) — The Stocks API from Equibles — 3 operation(s) for stocks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetV1EtfsSpyHoldingsResponse](https://apis.io/schemas/equibles/equibles-get-v1-etfs-spy-holdings-response/)
+- [GetV1EtfsSpyResponse](https://apis.io/schemas/equibles/equibles-get-v1-etfs-spy-response/)
+- [GetV1IposIpoidResponse](https://apis.io/schemas/equibles/equibles-get-v1-ipos-ipoid-response/)
+- [GetV1StocksAaplPricesResponse](https://apis.io/schemas/equibles/equibles-get-v1-stocks-aapl-prices-response/)
+- [GetV1V1IdResponse](https://apis.io/schemas/equibles/equibles-get-v1-v1-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Equibles Context](https://apis.io/jsonld/equibles/equibles-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Equibles API Rules](https://apis.io/rules/equibles/equibles-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Equibles Authentication](https://apis.io/security/equibles/equibles-authentication/)
+- [Equibles Domain Security](https://apis.io/security/equibles/equibles-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Equibles Plans Pricing](https://apis.io/plans/equibles/equibles-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Equibles Rate Limits](https://apis.io/rate-limits/equibles/equibles-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://equibles.com)
+- [Documentation](https://equibles.com/docs)
+- [API reference](https://equibles.com/docs/api)
+- [Pricing](https://equibles.com/pricing)
+- [Changelog](https://equibles.com/docs/changelog)
+- [Blog](https://equibles.com/blog)
+- [Terms of service](https://equibles.com/legal/terms)
+- [Privacy policy](https://equibles.com/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.5** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 25.8 |
+| Contract governance | 19.7 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 65.8 |
+
+**Agent readiness 45.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/equibles/](https://apis.io/providers/equibles/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Equibles: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/equibles/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
